@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: grpc-server-local
+
+  main:
+    banner-mode: off
+
+
+grpc:
+  server:
+    port: 9898
+logging:
+  level:
+    com.linux.weijie: debug
